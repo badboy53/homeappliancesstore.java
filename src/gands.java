@@ -1,9 +1,4 @@
-public class gands {
-    private static String namec ;
-    private static String adressc ;
-    private static int ple ;
-
-
+public class gands extends homeappliancesstore{
     /** getter and setter */
     public static String getNamec() {
         return namec;
