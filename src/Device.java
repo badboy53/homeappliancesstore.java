@@ -1,11 +1,11 @@
 public class Device {  //superclass
-    private double m;
-    private double h;
-    private double d;
-    private String ak;
-    private String as;
-    private String ts;
-    private double ke;
+    public  double m;
+    public  double h;
+    public  double d;
+    public  String ak;
+    public  String as;
+    public  String ts;
+    public  double ke;
     boolean status;
 
     public Device(double m, double h, double d, String ak, String as, String ts, double ke) {
@@ -18,16 +18,8 @@ public class Device {  //superclass
         this.ke = ke;
     }
 
-    public java.lang.String toString() {
-        return "Device{" +
-                "m=" + m +
-                ", h=" + h +
-                ", d=" + d +
-                ", ak='" + ak + '\'' +
-                ", as='" + as + '\'' +
-                ", ts='" + ts + '\'' +
-                ", ke=" + ke +
-                '}';
+    public String toString(){
+        return this.m + ", " + this.h + ", " + this.d + ", " + this.ak + ", " + this.as + ", " + this.ts + ", " + this.ke + '\n';
     }
 
     void PowerOn(){

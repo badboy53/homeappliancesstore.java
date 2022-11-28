@@ -1,10 +1,10 @@
 public class AirCondition extends Device{
-    private double ips;
-    private double kps;
-    private double kth;
-    private double esm;
-    private double eksm;
-    static int countAC;
+    private  double ips;
+    private  double kps;
+    private  double kth;
+    private  double esm;
+    private  double eksm;
+    static int countAC = 0;
 
     //private String periodicMaintanceAC(){}
 
@@ -20,6 +20,6 @@ public class AirCondition extends Device{
     }
 
     public String toString(){
-        return ips + ", " + kps + ", " + kth + ", " + esm + ", " + eksm + '\n' + countAC + '\n';
+        return  m + ", " + h + ", " + d + ", " + ak + ", " + as + ", " + ts + ", " + ke + ", " + ips + ", " + kps + ", " + kth + ", " + esm + ", " + eksm + '\n' + countAC + '\n';
     }
 }

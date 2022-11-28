@@ -1,10 +1,10 @@
 public class WashingMachine extends Device{
-    private double xp;
-    private double kn;
-    private double eths;
-    private double dp;
-    private String apst;
-    static int countWM;
+    private  double xp;
+    private  double kn;
+    private  double eths;
+    private  double dp;
+    private  String apst;
+    static int countWM = 0;
 
     //private String periodicMaintanceWM(){}
 
@@ -20,7 +20,7 @@ public class WashingMachine extends Device{
     }
 
     public String toString() {
-        return xp + ", " + kn + ", " + eths + ", " + dp + ", " + apst + '\n' + countWM + '\n';
+        return m + ", " + h + ", " + d + ", " + ak + ", " + as + ", " + ts + ", " + ke + ", " + xp + ", " + kn + ", " + eths + ", " + dp + ", " + apst + '\n' + countWM + '\n';
     }
 }
 

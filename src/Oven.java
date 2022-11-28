@@ -1,10 +1,10 @@
 public class Oven extends Device{
-    private int tps;
-    private double tf;
-    private String diak;
-    private String pso;
-    private String sk;
-    static int countOv;
+    private  int tps;
+    private  double tf;
+    private  String diak;
+    private  String pso;
+    private  String sk;
+    static int countOv = 0;
 
     //private String periodicMaintanceOv(){}
 
@@ -20,6 +20,6 @@ public class Oven extends Device{
     }
 
     public String toString(){
-        return tps + ", " + tf + ", " + diak + ", " + pso + ", " + sk + '\n' + countOv + '\n';
+        return  m + ", " + h + ", " + d + ", " + ak + ", " + as + ", " + ts + ", " + ke + ", " + tps + ", " + tf + ", " + diak + ", " + pso + ", " + sk + '\n' + countOv + '\n';
     }
 }

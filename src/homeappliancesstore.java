@@ -29,8 +29,8 @@ public class homeappliancesstore {
         homeappliancesstore.ple = ple;
     }
 
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
 
         Device FRIDGE1 = new Fridge(85.5, 183.5, 73.7, "Hitachi", "Hitachi GBK"
                 , "PSIGIO NTOULAPA", 340,144, 396, 40, "C", "BLACK" );
@@ -50,8 +50,7 @@ public class homeappliancesstore {
         Device AC1 = new AirCondition(88.2, 55.4, 25.55, "Mitsubishi", "Mitsubishi Electric"
                 , "AC", 500, 11703, 140, 730, 52, 62);
         Device AC2 = new AirCondition(77, 60, 35.55, "Mitsubishi", "Mitsubishi Electric"
-                       , "AC", 400, 11589, 140, 600, 56, 68);
-
+                , "AC", 400, 11589, 140, 600, 56, 68);
 
         System.out.println("FRIDGE1 : " + FRIDGE1 + '\n');
         FRIDGE1.PowerOn();
