@@ -18,9 +18,7 @@ public class Device {  //superclass
         this.ke = ke;
     }
 
-    public String toString() {
-        return m + ", " + h + ", " + d + ", " + ak + ", " + as + ", " + ts + ", " + ke + '\n';
-    }
+
 
     void PowerOn(){
         status = true;

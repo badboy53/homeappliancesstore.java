@@ -10,8 +10,27 @@ public class homeappliancesstore {
         System.out.println(a.status());
     }
 
+    public static String getNamec() {
+        return namec;
+    }
+    public static void setNamec(String namec) {
+        gands.namec = namec;
+    }
+    public static String getAdressc() {
+        return adressc;
+    }
+    public static void setAdressc(String adressc) {
+        gands.adressc = adressc;
+    }
+    public static int getPle() {
+        return ple;
+    }
+    public static void setPle(int ple) {
+        gands.ple = ple;
+    }
+
     public static void main(String[] args) {
-        gands pepe = new gands();
+
 
         Device FRIDGE1 = new Fridge(85.5, 183.5, 73.7, "Hitachi", "Hitachi GBK"
                 , "PSIGIO NTOULAPA", 340,144, 396, 40, "C", "BLACK" );
@@ -19,9 +38,9 @@ public class homeappliancesstore {
                 , "PSIGIOKATAPSIXTIS", 277, 84, 184,44, "C", "WHITE");
 
         Device WM1 = new WashingMachine(84.8, 59.8, 59, "Pitsos", "Pitsos WUP1403G9"
-                , "EMPROSTHIAS FORTISIS", 64/100, 9, 48, 71, 3.48, "B"  );
+                , "EMPROSTHIAS FORTISIS", 64.100, 9, 48, 71, 3.48, "B"  );
         Device WM2 = new WashingMachine(55.98, 44, 13, "Pitsos", "Pitsos WUP1403G9"
-                , "EMPROSTHIAS FORTISIS", 68/100, 8, 42, 44, 4, "B");
+                , "EMPROSTHIAS FORTISIS", 68.100, 8, 42, 44, 4, "B");
 
         Device OV1 = new Oven(59.5, 59.5, 56.4, "Whirlpool", "Whirlpool W7 OM5 4S"
                 , "hlektrikos", 300, 5, 71, "vithisomenoi", "YES", "diatherei" );
@@ -66,11 +85,11 @@ public class homeappliancesstore {
         System.out.println("plithos siskevon = " + count +'\n');
 
 
-        pepe.setNamec(args[3]);
-        pepe.setAdressc(args[4]);
-        pepe.setPle (Integer.parseInt(args[5]));
+        setNamec(args[3]);
+        setAdressc(args[4]);
+        setPle (Integer.parseInt(args[5]));
 
-        System.out.println("namec = " + pepe.getNamec() + '\n' + "adressc = " + pepe.getAdressc() + '\n' + "ple = " + pepe.getPle());
+        System.out.println("namec = " + getNamec() + '\n' + "adressc = " + getAdressc() + '\n' + "ple = " + getPle());
 
         namec = args[0];
         adressc = args[1];
@@ -84,5 +103,6 @@ public class homeappliancesstore {
         }
 
         System.out.println("namec = " + namec + '\n' + "adressc = " + adressc + '\n' + "ple = " + ple);
+
     }
 }
