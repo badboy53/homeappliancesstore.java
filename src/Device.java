@@ -18,7 +18,17 @@ public class Device {  //superclass
         this.ke = ke;
     }
 
-
+    public java.lang.String toString() {
+        return "Device{" +
+                "m=" + m +
+                ", h=" + h +
+                ", d=" + d +
+                ", ak='" + ak + '\'' +
+                ", as='" + as + '\'' +
+                ", ts='" + ts + '\'' +
+                ", ke=" + ke +
+                '}';
+    }
 
     void PowerOn(){
         status = true;
