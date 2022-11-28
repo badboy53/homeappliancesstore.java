@@ -18,10 +18,6 @@ public class Device {  //superclass
         this.ke = ke;
     }
 
-    public String toString(){
-        return this.m + ", " + this.h + ", " + this.d + ", " + this.ak + ", " + this.as + ", " + this.ts + ", " + this.ke + '\n';
-    }
-
     void PowerOn(){
         status = true;
         System.out.println("status device ine true");
