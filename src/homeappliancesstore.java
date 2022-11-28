@@ -14,19 +14,19 @@ public class homeappliancesstore {
         return namec;
     }
     public static void setNamec(String namec) {
-        gands.namec = namec;
+        homeappliancesstore.namec = namec;
     }
     public static String getAdressc() {
         return adressc;
     }
     public static void setAdressc(String adressc) {
-        gands.adressc = adressc;
+        homeappliancesstore.adressc = adressc;
     }
     public static int getPle() {
         return ple;
     }
     public static void setPle(int ple) {
-        gands.ple = ple;
+        homeappliancesstore.ple = ple;
     }
 
     public static void main(String[] args) {
